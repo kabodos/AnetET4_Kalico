@@ -1,11 +1,19 @@
-# mainsail-theme-fluorite
+# mainsail-printables
+A Mainsail theme with orange accents designed to mimick the look of the Printables website (Dark mode and Light mode).
 
-! sidebar and favicon logo are not include because thats my own logo !
+## Preview
+![Screenshot](./screenshot.jpg)
 
-![Screenshot 2024-05-03 084641](https://github.com/bumbeng/mainsail-theme-fluorite/assets/111509593/cd7b421b-6777-46ce-ab90-d4c0eebb4362)
+## Installation
+1. Clone the files from this repo:
+```bash
+git clone https://github.com/8bitmcu/mainsail-printables ~/printer_data/config/.theme
+```
+2. Go to ***Settings*** and set ***Mode*** to dark or light.
+3. Go to ***Settings*** -> ***UI-Settings*** and set ***Logo*** and ***Primary*** color to `250, 104, 49`. 
+4. Optionally set the colors of your extruder and heated bed to #cb2c2c (red), #5daf0b (green) and #3f4143 (gray)
 
-## How to install
-- make hidden folders visible
-- create a folder called .theme in machine section
-- copy the downloaded files into this folder
-- reload browser
+## Screenshots
+
+![dark mode](./dark_theme.jpg)
+![light mode](./light_theme.jpg)
